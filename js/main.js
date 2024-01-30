@@ -90,3 +90,10 @@ const allCrear = () => {
   flag = 0;
   screen.textContent = "0";
 };
+
+// イベントリスナーを登録
+document.querySelector('#btn-allcrear').addEventListener('click',allCrear);
+document.querySelector('#btn-inverted').addEventListener('click',inverted);
+document.querySelector('#btn-percent').addEventListener('click',percent);
+
+
