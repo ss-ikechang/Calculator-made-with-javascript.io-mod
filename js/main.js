@@ -96,4 +96,10 @@ document.querySelector('#btn-allcrear').addEventListener('click',allCrear);
 document.querySelector('#btn-inverted').addEventListener('click',inverted);
 document.querySelector('#btn-percent').addEventListener('click',percent);
 
+// 【JavaScript】addEventListenerのコールバック関数に引数を渡す -
+// https://wild-outdoorlife.com/javascript/addeventlistener-callback/
+document.querySelector('#btn-divide').addEventListener('click',()=> {
+  calclation('/')
+});
+
 
