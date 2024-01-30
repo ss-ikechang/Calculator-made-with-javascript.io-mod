@@ -98,8 +98,54 @@ document.querySelector('#btn-percent').addEventListener('click',percent);
 
 // 【JavaScript】addEventListenerのコールバック関数に引数を渡す -
 // https://wild-outdoorlife.com/javascript/addeventlistener-callback/
+document.querySelector('#btn-add').addEventListener('click',()=> {
+  calclation('+')
+});
+document.querySelector('#btn-subtract').addEventListener('click',()=> {
+  calclation('-')
+});
+document.querySelector('#btn-multiply').addEventListener('click',()=> {
+  calclation('*')
+});
 document.querySelector('#btn-divide').addEventListener('click',()=> {
   calclation('/')
+});
+document.querySelector('#btn-equal').addEventListener('click',()=> {
+  calclation('=')
+});
+document.querySelector('#btn-dot').addEventListener('click',()=> {
+  inputDot('.')
+});
+
+document.querySelector('#btn-zero').addEventListener('click',()=> {
+  inputValue(0)
+});
+document.querySelector('#btn-one').addEventListener('click',()=> {
+  inputValue(1)
+});
+document.querySelector('#btn-two').addEventListener('click',()=> {
+  inputValue(2)
+});
+document.querySelector('#btn-three').addEventListener('click',()=> {
+  inputValue(3)
+});
+document.querySelector('#btn-four').addEventListener('click',()=> {
+  inputValue(4)
+});
+document.querySelector('#btn-five').addEventListener('click',()=> {
+  inputValue(5)
+});
+document.querySelector('#btn-six').addEventListener('click',()=> {
+  inputValue(6)
+});
+document.querySelector('#btn-seven').addEventListener('click',()=> {
+  inputValue(7)
+});
+document.querySelector('#btn-eight').addEventListener('click',()=> {
+  inputValue(8)
+});
+document.querySelector('#btn-nine').addEventListener('click',()=> {
+  inputValue(9)
 });
 
 
